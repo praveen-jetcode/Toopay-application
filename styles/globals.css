@@ -4,6 +4,8 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import "../styles/Mywallet.module.css";
 @import "../styles/Constant.css";
+@import "../styles//TdsLetter.module.css";
+@import "../styles/Merchant.module.css";
 
 /*  */
 
