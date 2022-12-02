@@ -10,11 +10,11 @@ export const Layout = ({ children }: any) => {
 
   return (
     <>
-      <div id="navbar-wrapper" className="row">
-        <div className="col-3">
+      <div id="navbar-wrapper">
+        <div className="logo-container">
           <Logo />
         </div>
-        <div className="col-9">
+        <div className="Bars">
           <a href="#" className="navbar-brand" id="sidebar-toggle">
             <i className="fa fa-bars"></i>
           </a>

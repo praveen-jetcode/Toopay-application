@@ -3,6 +3,7 @@
 @import "../styles/Card.module.css";
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 @import "../styles/Mywallet.module.css";
+@import "../styles/Constant.css";
 
 /*  */
 
@@ -11,3 +12,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.btn{
+    border-radius: 0;
+
+}
+/* 
+::-webkit-scrollbar {
+    background-color:var(--primary-color);
+    border-radius: 14px;
+   } */
+
+   ::-webkit-scrollbar {
+    background-color:var(--primary-color);
+    height: 14px;              
+    width: 4px;               
+    border-radius: 14px;
+  }

@@ -61,15 +61,9 @@ export const Sidebar = ({ item }: any) => {
           </div>
           <div className="sidebar-content">
             <ul>
-              <li>
-                <Link className="link" href="/Dashboard/Mydashboard">
-                  My Dashboard
-                </Link>
-              </li>
-              <li>My Wallet</li>
-              <li>My Profile</li>
-              <li>Change Password</li>
-              <li>Set TPIN</li>
+              <li>Gas Bill</li>
+              <li>Water Bill</li>
+              <li>Electricity Bill</li>
             </ul>
           </div>
         </div>
