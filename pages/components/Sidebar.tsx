@@ -91,11 +91,15 @@ export const Sidebar = ({ item }: any) => {
           <div className="sidebar-content">
             <ul>
               <li>
-                <Link className="link" href="/Dashboard/Mydashboard">
-                  My Dashboard
+              <Link className="link" href="/Report/MerchantCertificate">
+                Merchant
                 </Link>
               </li>
-              <li>My Wallet</li>
+              <li>
+                <Link className="link" href="/Report/TdsLetter">
+                TdsLetter
+                </Link>
+              </li>
               <li>My Profile</li>
               <li>Change Password</li>
               <li>Set TPIN</li>
