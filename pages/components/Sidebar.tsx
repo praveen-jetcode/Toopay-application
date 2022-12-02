@@ -40,8 +40,16 @@ export const Sidebar = ({ item }: any) => {
                   My Wallet
                 </Link>
               </li>
-              <li>My Profile</li>
-              <li>Change Password</li>
+              <li>
+              <Link className="link" href="/Dashboard/Myprofile">
+              My Profile
+                </Link>
+                </li>
+                <li>
+              <Link className="link" href="/Dashboard/Changepassword">
+              Change Password
+                </Link>
+                </li>
               <li>Set TPIN</li>
             </ul>
           </div>
@@ -116,8 +124,8 @@ export const Sidebar = ({ item }: any) => {
           <div className="sidebar-content">
             <ul>
               <li>
-                <Link className="link" href="/Dashboard/Mydashboard">
-                  My Dashboard
+                <Link className="link" href="/Support/Complaints">
+                  Complaints
                 </Link>
               </li>
               <li>My Wallet</li>
