@@ -5,7 +5,6 @@ import { Heads } from "../components/Head";
 const Mydashboard = () => {
   return (
     <>
-      <Heads />
       <h1>my dashboard</h1>
     </>
   );
