@@ -6,9 +6,9 @@
 .card-header{
     background-color:#545c5e !important;
     margin: 0;
-    font-size: 18px;
-    color: #fff !important;
-    font-weight: 300;
+    font-size: 22px;
+    color: var(--white) !important;
+    font-weight: 400;
     padding: 14px 2px;
     padding-left: 18px;
 }
