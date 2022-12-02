@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
+import "../../styles/Layout.module.css";
+import { Heads } from "./Head";
 
 export const Sidebar = ({ item }: any) => {
   const [dash, setdash] = useState(false);
@@ -11,6 +13,7 @@ export const Sidebar = ({ item }: any) => {
   console.log(item, "itemss");
   return (
     <>
+      <Heads />
       <aside id="sidebar-wrapper">
         <div
           onClick={() => setdash(!dash)}
@@ -32,7 +35,11 @@ export const Sidebar = ({ item }: any) => {
                   My Dashboard
                 </Link>
               </li>
-              <li>My Wallet</li>
+              <li>
+                <Link className="link" href="/Dashboard/Mywallet">
+                  My Wallet
+                </Link>
+              </li>
               <li>My Profile</li>
               <li>Change Password</li>
               <li>Set TPIN</li>
