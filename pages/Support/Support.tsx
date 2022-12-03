@@ -10,10 +10,13 @@ const Support = () => {
 
                         <div className="col-lg-4">
                         <table className="table table-bordered">
-                        <tbody className="tablebody">
-                                        <tr className="bg-dark text-white text-center header">
+                            <thead>
+                            <tr className="bg-dark text-white text-center header">
                                             <th colSpan={2}>Distributor Detail</th>
-                                        </tr>
+                            </tr>
+                            </thead>
+                        <tbody className="tablebody">
+                                       
                                         <tr>
                                             <td width="180px" className="name">Name </td>
                                             <td>
@@ -41,10 +44,13 @@ const Support = () => {
                         
                         <div className="col-lg-4">
                         <table className="table table-bordered">
-                                <tbody>
-                                    <tr className="bg-dark text-white text-center">
+                            <thead>
+                            <tr className="bg-dark text-white text-center">
                                     <th colSpan={2}> Bank 2</th>                                   
                                 </tr>
+                            </thead>
+                                <tbody>
+                                   
                                 <tr>
                                     <td width="135px">Current A/c No  </td>
                                     <td>
@@ -68,10 +74,13 @@ const Support = () => {
                         </div>
                         <div className="col-lg-4">
                         <table className="table table-bordered">
-                                <tbody>
-                                    <tr className="bg-dark text-white text-center">
+                            <thead>
+                            <tr className="bg-dark text-white text-center">
                                     <th colSpan={2}> Bank 3</th>                                   
                                 </tr>
+                            </thead>
+                                <tbody>
+                                   
                                 <tr>
                                     <td width="135px">Current A/c No  </td>
                                     <td>
@@ -87,7 +96,7 @@ const Support = () => {
                                 <tr>
                                     <td>Bank Location </td>
                                     <td>
-                                      <p className="inputbox  mb-0">Hindanagar, Wardha - 442001</p>
+                                      <p className="inputbox mb-0">Hindanagar, Wardha - 442001</p>
                                     </td>
                                 </tr>
                             </tbody>
