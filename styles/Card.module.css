@@ -9,8 +9,9 @@
     font-size: 22px;
     color: var(--white) !important;
     font-weight: 400;
-    padding: 14px 2px;
-    padding-left: 18px;
+    padding: 5px 21px !important;
+    /* padding-left: 18px; */
+    /* height: 40px !important; */
 }
 .card .card-body{
 padding: 20px;
