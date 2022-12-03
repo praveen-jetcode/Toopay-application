@@ -22,7 +22,7 @@ export const Sidebar = ({ item }: any) => {
           }
         >
           <div className="sidebar-title">
-            <span>
+            <span className="p-2">
               <i className="fa fa-tachometer menu-icon" aria-hidden="true"></i>
               Dashboard
             </span>
@@ -41,15 +41,15 @@ export const Sidebar = ({ item }: any) => {
                 </Link>
               </li>
               <li>
-              <Link className="link" href="/Dashboard/Myprofile">
-              My Profile
+                <Link className="link" href="/Dashboard/Myprofile">
+                  My Profile
                 </Link>
-                </li>
-                <li>
-              <Link className="link" href="/Dashboard/Changepassword">
-              Change Password
+              </li>
+              <li>
+                <Link className="link" href="/Dashboard/Changepassword">
+                  Change Password
                 </Link>
-                </li>
+              </li>
               <li>Set TPIN</li>
             </ul>
           </div>
@@ -61,7 +61,7 @@ export const Sidebar = ({ item }: any) => {
           }
         >
           <div className="sidebar-title">
-            <span>
+            <span className="p-2">
               <i className="fa fa-fax menu-icon" aria-hidden="true"></i>
               Utility Services
             </span>
@@ -82,7 +82,7 @@ export const Sidebar = ({ item }: any) => {
           }
         >
           <div className="sidebar-title">
-            <span>
+            <span className="p-2">
               <i className="fa fa-list menu-icon" aria-hidden="true"></i>
               Report
             </span>
@@ -91,13 +91,13 @@ export const Sidebar = ({ item }: any) => {
           <div className="sidebar-content">
             <ul>
               <li>
-              <Link className="link" href="/Report/MerchantCertificate">
-                Merchant
+                <Link className="link" href="/Report/MerchantCertificate">
+                  Merchant
                 </Link>
               </li>
               <li>
                 <Link className="link" href="/Report/TdsLetter">
-                TdsLetter
+                  TdsLetter
                 </Link>
               </li>
               <li>My Profile</li>
@@ -113,7 +113,7 @@ export const Sidebar = ({ item }: any) => {
           }
         >
           <div className="sidebar-title">
-            <span>
+            <span className="p-2">
               <i className="fa fa-cogs menu-icon" aria-hidden="true"></i>
               Support
             </span>
@@ -140,7 +140,7 @@ export const Sidebar = ({ item }: any) => {
           }
         >
           <div className="sidebar-title">
-            <span>
+            <span className="p-2">
               <i style={{ fontSize: 18 }} className="material-icons">
                 logout
               </i>

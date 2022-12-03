@@ -244,35 +244,26 @@
   /* Title */
 
   .sidebar-item-dashboard{
-    padding: 7px;
     display: block;
     transition: background-color .3s;
-    border-bottom: 1px solid rgb(0, 0, 0);
+ 
   }
   .sidebar-item-utility{
-    padding: 7px;
     display: block;
     transition: background-color .3s;
-    border-bottom: 1px solid rgb(0, 0, 0);
-  }
+    }
   .sidebar-item-report{
-    padding: 7px;
     display: block;
     transition: background-color .3s;
-    border-bottom: 1px solid rgb(0, 0, 0);
-  }
+    }
   .sidebar-item-support{
-    padding: 7px;
     display: block;
     transition: background-color .3s;
-    border-bottom: 1px solid rgb(0, 0, 0);
-  }
+    }
   .sidebar-item-logout{
-    padding: 7px;
     display: block;
     transition: background-color .3s;
-    border-bottom: 1px solid rgb(0, 0, 0);
-  }
+    }
   /*  */
 
   .sidebar-title{
@@ -283,7 +274,7 @@
     font-weight: 600;
     font-family:var(--primaryFont) !important;
     cursor: pointer;
-
+    border-bottom: 1px solid rgba(0, 0, 0, 0.507);
   }
 
   .sidebar-title span i {
@@ -294,7 +285,7 @@
   .sidebar-title .toggle-btn{
     cursor: pointer;
     transition: transform .3s;
-    margin-top: 7px;
+    padding: 11px;
   }
   /*  */
   .sidebar-item-dashboard.open .sidebar-title .toggle-btn{
