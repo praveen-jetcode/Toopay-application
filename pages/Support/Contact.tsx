@@ -1,5 +1,5 @@
 import { Card } from "../components/Card";
-import "../../styles/Contact.module.css";
+import "../../styles/Support/Contact.module.css";
 
 const Contact = () => {
     return (
