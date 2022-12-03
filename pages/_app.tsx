@@ -8,7 +8,7 @@ import { useState } from "react";
 import LoginPage from "./Login/Loginpage";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [token, setTohen] = useState(false);
+  const [token, setTohen] = useState(true);
   return (
     <>
       {token === true ? (
