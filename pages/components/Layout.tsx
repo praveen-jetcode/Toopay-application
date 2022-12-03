@@ -10,17 +10,20 @@ export const Layout = ({ children }: any) => {
 
   return (
     <>
-      <div id="navbar-wrapper">
+      <div id="navbar-wrapper" style={{ position: "fixed", zIndex: 6 }}>
         <div className="logo-container">
           <Logo />
         </div>
         <div className="Bars">
           <a href="#" className="navbar-brand" id="sidebar-toggle">
-            <i className="fa fa-bars"></i>
+            <button className="btn btn-dark">
+              {" "}
+              <i className="fa fa-bars"></i>
+            </button>
           </a>
         </div>
       </div>
-      <div id="wrapper">
+      <div id="wrapper" style={{ zIndex: 1 }}>
         <Sidebar />
 
         <section id="content-wrapper">

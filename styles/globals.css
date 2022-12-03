@@ -23,11 +23,6 @@
     border-radius: 0;
 
 }
-/* 
-::-webkit-scrollbar {
-    background-color:var(--primary-color);
-    border-radius: 14px;
-   } */
 
    ::-webkit-scrollbar {
     background-color:var(--primary-color);
