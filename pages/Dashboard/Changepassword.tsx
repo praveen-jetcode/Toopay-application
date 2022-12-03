@@ -1,5 +1,5 @@
 import { Card2 } from "../components/Card";
-import "../../styles/Changepassword.module.css";
+import "../../styles/Dashboard/Changepassword.module.css";
 
 const Changepassword = () => {
   return (
