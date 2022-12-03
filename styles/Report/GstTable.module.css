@@ -1,0 +1,75 @@
+.gst-table{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table{
+    color:#212529;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.center{
+    text-align: left;
+    white-space: unset;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    line-height: 1;
+    border: 1px solid #e4e9f0;
+}
+
+.center td{
+    white-space: unset;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 1;
+    border: 1px solid #e4e9f0;
+}
+
+.text-right td{
+    text-align: right;
+    white-space: unset;
+    padding: 10px;
+    vertical-align: middle;
+    font-size: 0.875rem;
+    line-height: 1;
+    border: 1px solid #e4e9f0;
+}
+
+.text-right td img{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.text-right h5{
+    font-size: 1rem;
+}
+
+.text-right td ol{
+    padding-left: 1rem;
+    font-size: 0.875rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 25px;
+}
+
+.text-right td ol li{
+    line-height: 1.8;
+}
+
+.text-right td ol li p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.text-right td ol li p b{
+    font-weight: bolder;
+}

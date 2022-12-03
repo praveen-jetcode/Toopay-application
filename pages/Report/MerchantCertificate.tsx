@@ -1,5 +1,5 @@
 import { Card } from "../components/Card"
-import "../../styles/Merchant.module.css"
+import "../../styles/Report/Merchant.module.css"
 import { Logo } from "../components/Logo"
 
 const MerchantCertificate = ()=>{

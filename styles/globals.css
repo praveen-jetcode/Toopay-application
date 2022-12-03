@@ -8,8 +8,9 @@
 @import "../styles/Mydashboard.module.css";
 @import "../styles/complaints.module.css";
 @import "../styles/Constant.css";
-@import "../styles//TdsLetter.module.css";
-@import "../styles/Merchant.module.css";
+@import "../styles/Report/TdsLetter.module.css";
+@import "../styles/Report/Merchant.module.css";
+@import "../styles/Report/GstTable.module.css";
 
 /*  */
 

@@ -1,4 +1,4 @@
-import "../../styles/TdsLetter.module.css"
+import "../../styles/Report/TdsLetter.module.css"
 import { Card } from "../components/Card"
 
 const MerchantCertificate = ()=>{
