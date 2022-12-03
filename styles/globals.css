@@ -5,12 +5,14 @@
 @import "../styles/Dashboard/Myprofile.module.css";
 @import "../styles/Dashboard/Changepassword.module.css";
 @import "../styles/Dashboard/Mydashboard.module.css";
-@import "../styles/Support/complaints.module.css";
+@import "../styles/Support/Complaints.module.css";
 @import "../styles/Constant.css";
 @import "../styles/Report/TdsLetter.module.css";
 @import "../styles/Report/Merchant.module.css";
 @import "../styles/Loginpage.module.css";
 @import "../styles/Report/GstTable.module.css";
+@import "../styles/Support/Contact.module.css";
+@import "../styles/Support/Support.module.css";
 
 /*  */
 

@@ -1,5 +1,5 @@
 import { Card } from "../components/Card";
-import "../../styles/complaints.module.css";
+import "../../styles/Support/Complaints.module.css";
 
  const Complaints = () => {
   return (
