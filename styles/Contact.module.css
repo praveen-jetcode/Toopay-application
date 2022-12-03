@@ -1,0 +1,14 @@
+.table{
+    height: 300px !important;
+    width: 100% !important;
+}
+.header{
+    background-color: #3e4b5b !important;
+}
+.name{
+    vertical-align: middle !important;
+    font-size: 0.875rem !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+    padding: 18px !important;
+}

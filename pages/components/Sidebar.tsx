@@ -127,8 +127,16 @@ export const Sidebar = ({ item }: any) => {
                 </Link>
               </li>
               <li>My Wallet</li>
-              <li>My Profile</li>
-              <li>Change Password</li>
+              <li>
+                <Link className="link" href="/Support/Contact">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link className="link" href="/Support/Support">
+                  Support
+                </Link>
+              </li>
               <li>Set TPIN</li>
             </ul>
           </div>
