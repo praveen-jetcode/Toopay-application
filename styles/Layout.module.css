@@ -107,7 +107,7 @@
   #wrapper.toggled #content-wrapper {
     position: absolute;
     margin-right: -250px;
-    height: auto;
+    height: 100vh ;
   }
   
   @media (min-width: 992px) {

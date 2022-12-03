@@ -1,18 +1,11 @@
 import { Card } from "../components/Card";
-import { Heads } from "../components/Head";
-import "../../styles/Dashboard/Mywallet.module.css";
+import "../../styles/Report/LedgerReport.module.css";
 
-const Mywallet = () => {
+/* eslint-disable react/jsx-no-undef */
+const LedgerReport = () => {
   return (
     <>
-      <Card Header={"My Wallet"}>
-        <button type="button" className="btn btnPrimary">
-          Fund Request
-          <span>
-            <i className="fa fa-plus-circle" aria-hidden="true"></i>
-          </span>
-        </button>
-        <hr />
+      <Card Header={"Account Statement Columner"}>
         <div className="row">
           <div className="col-lg-4">
             <div className="row">
@@ -47,11 +40,12 @@ const Mywallet = () => {
             </div>
           </div>
           <div className="col-lg-4  btn-container">
-            <button type="button" className="btn btnPrimary">
+            <button type="button" className="btn btnPrimary p-4">
               Search
             </button>
           </div>
         </div>
+
         <div className="cont row mt-2" style={{ width: "250px" }}>
           <div className="col-lg-3 selection-text ">Show</div>
           <div className="col-lg-4">
@@ -68,33 +62,6 @@ const Mywallet = () => {
             <p>entries</p>
           </div>
         </div>
-        {/* <div className="containerRow">
-          <div className="btnCol">
-            <button type="button" className="btn btninkBlue ">
-              Copy
-            </button>
-          </div>
-          <div className="btnCol">
-            <button type="button" className="btn btninkBlue ">
-              CSV
-            </button>
-          </div>
-          <div className="btnCol">
-            <button type="button" className="btn btninkBlue ">
-              Excel
-            </button>
-          </div>
-          <div className="btnCol">
-            <button type="button" className="btn btninkBlue ">
-              PDF
-            </button>
-          </div>
-          <div className="btnCol">
-            <button type="button" className="btn btninkBlue ">
-              Print all (not just Selected)
-            </button>
-          </div>
-        </div> */}
 
         <div className="row rowContainer">
           <div className="col-lg-2 colSmall">
@@ -145,20 +112,30 @@ const Mywallet = () => {
             <thead>
               <tr>
                 <th className="th-sm tableHead ">#</th>
+                <th className="th-sm tableHead ">TxnNo</th>
                 <th className="th-sm tableHead">DATE</th>
-                <th className="th-sm tableHead">PARTICULARS</th>
-                <th className="th-sm tableHead">CREDIT</th>
-                <th className="th-sm tableHead">DEBIT</th>
+                <th className="th-sm tableHead ">Mobile No</th>
+                <th className="th-sm tableHead ">TxnType</th>
+                <th className="th-sm tableHead ">TxnAmount</th>
+                <th className="th-sm tableHead">Commision</th>
+                <th className="th-sm tableHead">GST</th>
+                <th className="th-sm tableHead">TDS</th>
+                <th className="th-sm tableHead">NetCommision</th>
                 <th className="th-sm tableHead">BALANCE</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
+                <td>01</td>
+                <td>23145321</td>
+                <td>12/12/2022</td>
+                <td>1234567891</td>
                 <td>2011/04/25</td>
+                <td>$320,800</td>
+                <td>System Architect</td>
+                <td>1%</td>
+                <td>2%</td>
+                <td>5</td>
                 <td>$320,800</td>
               </tr>
             </tbody>
@@ -169,4 +146,4 @@ const Mywallet = () => {
   );
 };
 
-export default Mywallet;
+export default LedgerReport;

@@ -15,6 +15,7 @@
 @import "../styles/Support/Support.module.css";
 @import "../styles//Support/TermsAndCondition.module.css";
 @import "../styles/Support/Policy.module.css";
+@import "../styles/Report/LedgerReport.module.css";
 
 /*  */
 
@@ -32,11 +33,16 @@
    ::-webkit-scrollbar {
     background-color:var(--primary-color);
     height: 14px;              
-    width: 4px;               
+    width: 14px;               
     border-radius: 14px;
   }
 
   p{
     margin: 0;
     padding: 0;
+  }
+
+ #wrapper{
+    background-color: var(--secondary-color);
+    height: 100vh;
   }

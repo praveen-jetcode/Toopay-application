@@ -2,6 +2,8 @@
 import Head from "next/head";
 import { Heads } from "../components/Head";
 import "../../styles/Dashboard/Mydashboard.module.css";
+import Marquee from "react-fast-marquee";
+
 
 const Mydashboard = () => {
   return (
@@ -18,9 +20,9 @@ const Mydashboard = () => {
             <div className="latest_updates">
               <div className="update_head">Latest Updates</div>
               <div className="news_ticker">
-                {/* <marquee behavior="" direction="up" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-                    <p className="mb-0">No Notification Available</p>
-                </marquee> */}
+                <Marquee>
+                No Notification Available
+                </Marquee>
               </div>
             </div>
           </div>
@@ -63,7 +65,8 @@ const Mydashboard = () => {
           </div>
         </div>
 
-        <div className="container">
+
+        {/* <div className="container">
           <div className="row">
             <div className="col-md-2 col-12 col-sm-3 col-lg-3">
               <div className="card-counter info">
@@ -123,6 +126,47 @@ const Mydashboard = () => {
                 </a>
               </div>
             </div>
+          </div>
+        </div> */}
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 col-sm-6 col-lg-3">
+              <div className="card-counter info">
+                <a href="#" className="link">
+                  <div className="row">
+                    <div className="col-2 col-sm-4 col-md-4"><img src="https://toopay.in/assets-dashboard/images/Water.png"
+                      width="100%" /></div>
+                    <div className="col-8"><span className="bottomcontent">Water Bill <br />
+                      Payment</span></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-lg-3">
+              <div className="card-counter info">
+                <a href="#" className="link">
+                  <div className="row">
+                    <div className="col-2 col-sm-4 col-md-4"><img src="https://toopay.in/assets-dashboard/images/Electricity.png"
+                      width="100%" /></div>
+                    <div className="col-8"><span className="bottomcontent">Electricity Bill
+                      Payment</span></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-6 col-lg-3">
+              <div className="card-counter info">
+                <a href="#" className="link">
+                  <div className="row">
+                    <div className="col-2 col-sm-4 col-md-4"><img src="https://toopay.in/assets-dashboard/images/Gas.png"
+                      width="100%" /></div>
+                    <div className="col-8"><span className="bottomcontent">Piped Gas Bill
+                      Payment</span></div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
