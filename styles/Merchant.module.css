@@ -13,11 +13,6 @@
     min-height: 1px;
 }
 
-.row{
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
 
 .textCenter{
     text-align: center !important;
