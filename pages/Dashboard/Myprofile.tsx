@@ -1,5 +1,5 @@
 import { Card } from "../components/Card";
-import "../../styles/Myprofile.module.css";
+import "../../styles/Dashboard/Myprofile.module.css";
 
 const Myprofile = () => {
   return (
