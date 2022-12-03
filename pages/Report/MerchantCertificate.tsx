@@ -1,5 +1,6 @@
 import { Card } from "../components/Card"
 import "../../styles/Merchant.module.css"
+import { Logo } from "../components/Logo"
 
 const MerchantCertificate = ()=>{
   return(
@@ -11,7 +12,7 @@ const MerchantCertificate = ()=>{
                <div className="row">
                  <div className="textCenter">
                   <div className="mAuto">
-                    <p>Toopay</p>
+                    <Logo/>
                   </div>
                  </div>
                  <div className="certificate_title">
