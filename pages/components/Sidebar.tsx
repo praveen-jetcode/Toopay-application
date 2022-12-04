@@ -143,6 +143,11 @@ export const Sidebar = ({ item }: any) => {
                   Complaints
                 </Link>
               </li>
+              <li>
+                <Link className="link" href="/Support/TermsAndCondition">
+                Terms & Conditions
+                </Link>
+              </li>
               <li>My Wallet</li>
               <li>
                 <Link className="link" href="/Support/Contact">
