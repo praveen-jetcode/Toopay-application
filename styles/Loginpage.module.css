@@ -1,0 +1,15 @@
+.title{
+    font-size: 34px ;
+    color: var(--primary-color);
+    font-weight: 200;
+}
+
+.btnDanger{
+    background-color: #DC3545;
+    color: var(--white);
+}
+
+.linkText{
+    text-decoration: none;
+    text-align: right;
+}

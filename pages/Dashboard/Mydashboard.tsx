@@ -1,16 +1,18 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Head from "next/head";
 import { Heads } from "../components/Head";
-import "../../styles/Mydashboard.module.css";
+import "../../styles/Dashboard/Mydashboard.module.css";
 
 const Mydashboard = () => {
   return (
     <>
       <div className="section">
-
         <div className="row mb-3">
           <div className="col-md-8 mb-4 mt-4">
-            <img src="https://toopay.in/assets-dashboard/images/banners/banner5.jpg" className="img-fluid" />
+            <img
+              src="https://toopay.in/assets-dashboard/images/banners/banner5.jpg"
+              className="img-fluid"
+            />
           </div>
           <div className="col-md-4 mt-4 d-flex">
             <div className="latest_updates">
@@ -24,8 +26,6 @@ const Mydashboard = () => {
           </div>
         </div>
 
-
-
         <div className="container pt-3">
           <div className="row">
             <div className="col-md-5 mb-3">
@@ -36,25 +36,32 @@ const Mydashboard = () => {
                       <tr>
                         <td>
                           <input type="radio" value="Wallet3" />
-                          <label>Add Money</label></td>
+                          <label>Add Money</label>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
                 </span>
                 <div className="d-flex wallet-load">
-                  <input type="number" maxLength={7} className="form-control border-1 text-secondary" placeholder="Enter Amount" />
+                  <input
+                    type="number"
+                    maxLength={7}
+                    className="form-control border-1 text-secondary"
+                    placeholder="Enter Amount"
+                  />
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
                   <div className="input-group-btn">
-                    <input type="submit" value="PROCESS" className="btn btn-primary rounded" />
+                    <input
+                      type="submit"
+                      value="PROCESS"
+                      className="btn btn-primary rounded"
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
 
         <div className="container">
           <div className="row">
@@ -63,10 +70,17 @@ const Mydashboard = () => {
                 <a href="#" className="link">
                   <div className="row">
                     <div className="col-4">
-                      <img src="https://toopay.in/assets-dashboard/images/Water.png" width="100%" />
+                      <img
+                        src="https://toopay.in/assets-dashboard/images/Water.png"
+                        width="100%"
+                      />
                     </div>
                     <div className="col-8">
-                      <span className="bottomcontent">Water Bill <br />Payment</span></div>
+                      <span className="bottomcontent">
+                        Water Bill <br />
+                        Payment
+                      </span>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -75,10 +89,17 @@ const Mydashboard = () => {
               <div className="card-counter info">
                 <a href="#" className="link">
                   <div className="row">
-                    <div className="col-4"><img src="https://toopay.in/assets-dashboard/images/Electricity.png"
-                      width="100%" /></div>
-                    <div className="col-8"><span className="bottomcontent">
-                      Electricity Bill Payment</span></div>
+                    <div className="col-4">
+                      <img
+                        src="https://toopay.in/assets-dashboard/images/Electricity.png"
+                        width="100%"
+                      />
+                    </div>
+                    <div className="col-8">
+                      <span className="bottomcontent">
+                        Electricity Bill Payment
+                      </span>
+                    </div>
                   </div>
                 </a>
               </div>
@@ -87,20 +108,23 @@ const Mydashboard = () => {
               <div className="card-counter info">
                 <a href="#" className="link">
                   <div className="row">
-                    <div className="col-4"><img src="https://toopay.in/assets-dashboard/images/Gas.png"
-                      width="100%" /></div>
-                    <div className="col-8"><span className="bottomcontent">Piped Gas Bill
-                      Payment</span></div>
+                    <div className="col-4">
+                      <img
+                        src="https://toopay.in/assets-dashboard/images/Gas.png"
+                        width="100%"
+                      />
+                    </div>
+                    <div className="col-8">
+                      <span className="bottomcontent">
+                        Piped Gas Bill Payment
+                      </span>
+                    </div>
                   </div>
                 </a>
               </div>
             </div>
-
           </div>
         </div>
-
-     
-        
       </div>
     </>
   );

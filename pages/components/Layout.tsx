@@ -16,7 +16,7 @@ export const Layout = ({ children }: any) => {
         style={{ position: "fixed", zIndex: 6, backgroundColor: "white" }}
       >
         <div className="row">
-          <div className=" col-lg-8">
+          <div className=" col-lg-8" style={{ paddingLeft: 75 }}>
             <Logo />
           </div>
           <div className="col-lg-4">

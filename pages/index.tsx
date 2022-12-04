@@ -4,10 +4,7 @@ import styles from "../styles/Home.module.css";
 import { Heads } from "./components/Head";
 import { Layout } from "./components/Layout";
 import Mydashboard from "./Dashboard/Mydashboard";
+import LoginPage from "./Login/Loginpage";
 export default function Home() {
-  return (
-    <>
-      <Mydashboard />
-    </>
-  );
+  return <>{/* <LoginPage /> */}</>;
 }

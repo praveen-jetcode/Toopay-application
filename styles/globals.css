@@ -1,15 +1,15 @@
-@import "../styles/Logo.module.css";
 @import "../styles/Layout.module.css";
 @import "../styles/Card.module.css";
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-@import "../styles/Mywallet.module.css";
-@import "../styles/Myprofile.module.css";
-@import "../styles/Changepassword.module.css";
-@import "../styles/Mydashboard.module.css";
-@import "../styles/complaints.module.css";
+@import "../styles/Dashboard/Mywallet.module.css";
+@import "../styles/Dashboard/Myprofile.module.css";
+@import "../styles/Dashboard/Changepassword.module.css";
+@import "../styles/Dashboard/Mydashboard.module.css";
+@import "../styles/Support/complaints.module.css";
 @import "../styles/Constant.css";
-@import "../styles//TdsLetter.module.css";
-@import "../styles/Merchant.module.css";
+@import "../styles/Report/TdsLetter.module.css";
+@import "../styles/Report/Merchant.module.css";
+@import "../styles/Loginpage.module.css";
 
 /*  */
 
