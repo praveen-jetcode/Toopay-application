@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import "../../styles/Layout.module.css";
 import { Heads } from "./Head";
@@ -9,6 +10,8 @@ export const Sidebar = ({ item }: any) => {
   const [report, setReport] = useState(false);
   const [support, setSupport] = useState(false);
   const [logout, setLogout] = useState(false);
+
+  const Router = useRouter();
 
   console.log(item, "itemss");
   return (
@@ -145,7 +148,7 @@ export const Sidebar = ({ item }: any) => {
               </li>
               <li>
                 <Link className="link" href="/Support/TermsAndCondition">
-                Terms & Conditions
+                  Terms & Conditions
                 </Link>
               </li>
              
@@ -174,7 +177,13 @@ export const Sidebar = ({ item }: any) => {
           }
         >
           <div className="sidebar-title">
-            <span className="p-2">
+            <span
+              className="p-2"
+              onClick={() => {
+                localStorage.removeItem("token");
+                Router.refresh();
+              }}
+            >
               <i style={{ fontSize: 18 }} className="material-icons">
                 logout
               </i>
