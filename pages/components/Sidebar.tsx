@@ -90,9 +90,9 @@ export const Sidebar = ({ item }: any) => {
           </div>
           <div className="sidebar-content">
             <ul>
-            <li>
-              <Link className="link" href="/Report/GstTable">
-              GST Invoice Report
+              <li>
+                <Link className="link" href="/Report/GstTable">
+                  GST Invoice Report
                 </Link>
               </li>
               <li>
@@ -105,9 +105,21 @@ export const Sidebar = ({ item }: any) => {
                   TdsLetter
                 </Link>
               </li>
-             
-              <li>Change Password</li>
-              <li>Set TPIN</li>
+              <li>
+                <Link className="link" href="/Report/TopupReqReport">
+                  Topup Request Report
+                </Link>
+              </li>
+              <li>
+                <Link className="link" href="/Report/LedgerReport">
+                  Ledger Report
+                </Link>
+              </li>
+              <li>
+                <Link className="link" href="/Report/RechargeReport">
+                  Recharge Report
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

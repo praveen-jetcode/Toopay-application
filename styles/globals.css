@@ -13,6 +13,7 @@
 @import "../styles/Report/GstTable.module.css";
 @import "../styles/Support/Contact.module.css";
 @import "../styles/Support/Support.module.css";
+@import "../styles/Report/LedgerReport.module.css";
 
 /*  */
 
@@ -30,7 +31,7 @@
    ::-webkit-scrollbar {
     background-color:var(--primary-color);
     height: 14px;              
-    width: 4px;               
+    width: 14px;               
     border-radius: 14px;
   }
 
@@ -38,3 +39,4 @@
     margin: 0;
     padding: 0;
   }
+ 

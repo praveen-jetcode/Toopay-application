@@ -33,6 +33,11 @@
 .selection-text{
     margin-top: 4px
 }
+.columns{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10px;
+}
 .btninkBlue{
     background-color: var(--inkBlue) !important;
     color: var(--white);
