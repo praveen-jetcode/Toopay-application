@@ -1,7 +1,21 @@
 import { Logo } from "../components/Logo";
 import "../../styles/Loginpage.module.css";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
+  const [userName, setUserName] = useState("");
+  const [password, setPassword] = useState("");
+
+  const Router = useRouter();
+
+  const handleLogin = () => {
+    console.log("clicked");
+    if (userName === "admin" && password === "admin") {
+      localStorage.setItem("token", "token");
+      Router.refresh();
+    }
+  };
   return (
     <>
       <div className="container-fluid">
@@ -28,6 +42,7 @@ const LoginPage = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <input
+                      onChange={(e) => setUserName(e.target.value)}
                       style={{ borderBottom: "1px solid black", padding: 0 }}
                       type="text"
                       className="form-control"
@@ -46,6 +61,7 @@ const LoginPage = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <input
+                      onChange={(e) => setPassword(e.target.value)}
                       style={{ borderBottom: "1px solid black", padding: 0 }}
                       type="text"
                       className="form-control"
@@ -57,7 +73,9 @@ const LoginPage = () => {
 
             <div className="row mt-4">
               <div className="col-lg-8">
-                <button className="btn btnDanger"> LOG IN</button>
+                <button className="btn btnDanger" onClick={handleLogin}>
+                  LOG IN
+                </button>
               </div>
               <div className="col-lg-4">
                 <div className="row">
