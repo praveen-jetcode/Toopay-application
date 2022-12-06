@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 import LoginPage from "./Login/Loginpage";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [token, setToken] = useState(false);
+  const [token, setToken] = useState(true);
 
   useEffect(() => {
     if (localStorage.getItem("token") === "token") {

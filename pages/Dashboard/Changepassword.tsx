@@ -1,6 +1,7 @@
 import { Card2 } from "../components/Card";
 import "../../styles/Dashboard/Changepassword.module.css";
 
+
 const Changepassword = () => {
   return (
     <>
@@ -68,6 +69,7 @@ const Changepassword = () => {
           </ul>
         </div>
       </Card2>
+     
     </>
   );
 };

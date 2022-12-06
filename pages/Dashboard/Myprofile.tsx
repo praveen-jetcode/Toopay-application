@@ -120,7 +120,9 @@ const Myprofile = () => {
             </div>
           </div>
         </div>
+       
       </Card>
+    
     </>
   );
 };

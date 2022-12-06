@@ -165,6 +165,7 @@ const Mywallet = () => {
           </table>
         </div>
       </Card>
+    
     </>
   );
 };

@@ -2,7 +2,8 @@
 import Head from "next/head";
 import { Heads } from "../components/Head";
 import "../../styles/Dashboard/Mydashboard.module.css";
-import Marquee from "react-fast-marquee";
+import Footer from "../components/Footer";
+// import Marquee from "react-fast-marquee";
 
 
 const Mydashboard = () => {
@@ -20,9 +21,9 @@ const Mydashboard = () => {
             <div className="latest_updates">
               <div className="update_head">Latest Updates</div>
               <div className="news_ticker">
-                <Marquee>
+                {/* <Marquee>
                 No Notification Available
-                </Marquee>
+                </Marquee> */}
               </div>
             </div>
           </div>
@@ -170,6 +171,7 @@ const Mydashboard = () => {
           </div>
         </div>
       </div>
+      
     </>
   );
 };

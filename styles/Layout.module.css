@@ -100,9 +100,14 @@
   
   #content-wrapper {
     width: 100%;
-    position: absolute;
-    padding: 15px;
+    /* position: absolute; */
+    /* overflow-y: scroll; */
+  height: auto;
     top: 100px;
+  }
+  .contents{
+  
+    padding-left: 54px !important;
   }
   #wrapper.toggled #content-wrapper {
     position: absolute;

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Logo } from "./Logo";
 import { Sidebar } from "./Sidebar";
 import "../../styles/Layout.module.css";
+import Footer from "./Footer";
 
 export const Layout = ({ children }: any) => {
   const [open, setOpen] = useState(false);
@@ -50,10 +51,21 @@ export const Layout = ({ children }: any) => {
 
         <section id="content-wrapper">
           <div className="row">
-            <div className="col-lg-12">{children}</div>
+            <div className="col-lg-12">
+              <div style={{height:"80vh" , overflowY:"auto",paddingLeft:30,paddingTop:10,paddingBottom:20}}>
+              {children}
+              </div> 
+             
+              <div>
+              <Footer/>
+               </div> 
+             
+            </div>
           </div>
         </section>
+       
       </div>
+     
     </>
   );
 };
