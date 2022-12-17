@@ -3,7 +3,7 @@ import "../../styles/Loginpage.module.css";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-const LoginPage = () => {
+const Loginpage = () => {
   const [userName, setUserName] = useState("");
   const [password, setPassword] = useState("");
 
@@ -20,7 +20,7 @@ const LoginPage = () => {
     <>
       <div className="container-fluid">
         <div className="row ">
-          <div className="col-lg-6">a</div>
+          <div className="col-lg-6">image</div>
           <div className="col-lg-6 ">
             <div className="row mt-2 pt-5">
               <div className="col-lg-12">
@@ -105,4 +105,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Loginpage;

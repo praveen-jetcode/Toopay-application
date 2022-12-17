@@ -1,20 +1,23 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { Layout } from "./components/Layout";
+import { Layout, WebLayout } from "./components/Layout";
 import { Heads } from "./components/Head";
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import { Children, useEffect, useState } from "react";
 import LoginPage from "./Login/Loginpage";
+import { useRouter } from "next/navigation";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [token, setToken] = useState(true);
-
+  const [token, setToken] = useState(false);
+  const Router = useRouter();
   useEffect(() => {
     if (localStorage.getItem("token") === "token") {
       setToken(true);
+      Router.push("/Dashboard/Mydashboard");
     } else {
       setToken(false);
+      Router.push("/Login/Loginpage");
     }
   }, []);
 
@@ -25,8 +28,9 @@ export default function App({ Component, pageProps }: AppProps) {
           <Component {...pageProps} />
         </Layout>
       ) : (
-        // <Component {...pageProps} />
-        <LoginPage />
+        <WebLayout>
+          <Component {...pageProps} />
+        </WebLayout>
       )}
     </>
   );
