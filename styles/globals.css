@@ -46,5 +46,13 @@
     background-color: var(--secondary-color);
     height: auto;
   }
+.justifycenter{
+  justify-content: center;
+}
+.anchor{
+  text-decoration: none;
+}
 
-
+.colorash{
+  color: rgba(0, 0, 0, 0.295);
+}

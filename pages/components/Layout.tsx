@@ -6,7 +6,6 @@ import "../../styles/Layout.module.css";
 
 export const Layout = ({ children }: any) => {
   const [open, setOpen] = useState(false);
-  console.log(open, "opennn");
 
   return (
     <>
@@ -54,6 +53,79 @@ export const Layout = ({ children }: any) => {
           </div>
         </section>
       </div>
+    </>
+  );
+};
+
+export const WebLayout = ({ children }: any) => {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <div
+        id="navbar-wrapper"
+        className="container-fluid "
+        style={{ position: "fixed", zIndex: 6, backgroundColor: "white" }}
+      >
+        <div className="row">
+          <div className=" col-lg-4" style={{ paddingLeft: 75 }}>
+            <Logo />
+          </div>
+          <div className="col-lg-8">
+            <div className="row">
+              <div className="col-sm-2 col-md-2 col-lg-2 p-3">
+                <Link
+                  className="Navtext1 colorash anchor"
+                  href="/Website/HomePage"
+                >
+                  Home
+                </Link>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 p-3">
+                <Link
+                  className="Navtext1 colorash anchor"
+                  href="/Website/AboutPage"
+                >
+                  About
+                </Link>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 p-3">
+                <Link
+                  className="Navtext1 colorash anchor"
+                  href="/Website/AboutPage"
+                >
+                  Bill Payment
+                </Link>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 p-3">
+                <Link
+                  className="Navtext1 colorash anchor"
+                  href="/Website/AboutPage"
+                >
+                  Contact
+                </Link>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 p-3">
+                <Link
+                  className="Navtext1 colorash anchor"
+                  href="/Login/Loginpage"
+                >
+                  Login
+                </Link>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 p-3">
+                <Link
+                  className="Navtext1 colorash anchor"
+                  href="/Website/AboutPage"
+                >
+                  Register
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="content-wrapper">{children}</div>
     </>
   );
 };

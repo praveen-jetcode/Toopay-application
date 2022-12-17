@@ -151,7 +151,7 @@ export const Sidebar = ({ item }: any) => {
                   Terms & Conditions
                 </Link>
               </li>
-             
+
               <li>
                 <Link className="link" href="/Support/Contact">
                   Contact
@@ -164,7 +164,7 @@ export const Sidebar = ({ item }: any) => {
               </li>
               <li>
                 <Link className="link" href="/Support/Policy">
-                 Policy
+                  Policy
                 </Link>
               </li>
             </ul>
