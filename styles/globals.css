@@ -42,9 +42,9 @@
     padding: 0;
   }
 
- #wrapper{
+ #content-wrapper{
     background-color: var(--secondary-color);
-    height: auto;
+    height: 100vh;
   }
 .justifycenter{
   justify-content: center;
