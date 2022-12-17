@@ -45,7 +45,7 @@
 
  #content-wrapper{
     background-color: var(--secondary-color);
-    height: 100vh;
+    height: auto;
   }
 .justifycenter{
   justify-content: center;
