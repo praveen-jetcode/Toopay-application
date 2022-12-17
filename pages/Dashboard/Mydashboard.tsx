@@ -20,9 +20,16 @@ const Mydashboard = () => {
             <div className="latest_updates">
               <div className="update_head">Latest Updates</div>
               <div className="news_ticker">
-                <Marquee>
+                {/* <Marquee  direction='right'>
                 No Notification Available
-                </Marquee>
+                </Marquee> */}
+                   <div className="marquee marquee-top">
+  <div className="marquee-inner">
+     <span className="marquee-inner-item">You spin me right round, baby. Like a record, baby.</span>
+    <span className="marquee-inner-item">You spin me right round, baby. Like a record, baby.</span>
+  </div>
+  <span className="marquee-inner-item--hidden">You spin me right round, baby. Like a record, baby.</span>
+</div>
               </div>
             </div>
           </div>
